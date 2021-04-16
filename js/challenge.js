@@ -28,3 +28,8 @@ minus.addEventListener('click', function(e){
   counter.innerText = `${parseInt(counter.innerText) - 1}`;
   i = parseInt(counter.innerText);
 });
+
+//add likes
+heart.addEventListener('click',function(e){
+  likes.innerHTML += `<li>${counter.innerText} liked your post!</li>`
+})
