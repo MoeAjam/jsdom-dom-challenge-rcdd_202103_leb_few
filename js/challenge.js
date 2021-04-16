@@ -58,6 +58,6 @@ pause.addEventListener('click',function(e){
 
 //add comments
 submit.addEventListener('click',function(e){
-  comments.innerHTML += `${commentInput.value}<br>``;
+  comments.innerHTML += `${commentInput.value}<br>`;
   event.preventDefault();
 })
