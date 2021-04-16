@@ -6,7 +6,7 @@ let likes = document.getElementsByClassName('likes')[0];
 let pause = document.getElementById('pause');
 let submit = document.getElementById('submit');
 let commentInput = document.getElementById('comment-input');
-let comment = document.getElementById('comment');
+let comment = document.getElementById('comments');
 //incriment by 1 every second
 let a = setTimeout(start, 5000);
 let i = 1;
