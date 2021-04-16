@@ -1,6 +1,6 @@
 let counter = document.getElementById('counter');
 let minus = document.getElementById('minus');
-let plus = = document.getElementById('plus');
+let plus = document.getElementById('plus');
 
 //incriment by 1 every second
 setTimeout(start, 5000);
