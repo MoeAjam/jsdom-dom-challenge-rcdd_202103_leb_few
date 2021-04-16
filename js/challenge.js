@@ -38,7 +38,7 @@ heart.addEventListener('click',function(e){
 
 //pause
 pause.addEventListener('click',function(e){
-  clearInterval();
+  clearInterval(increase, 1000);
   plus.disabled = true;
   minus.disabled = true;
   heart.disabled = true;
