@@ -40,8 +40,17 @@ heart.addEventListener('click',function(e){
 pause.addEventListener('click',function(e){
   if (pause.innerText === "pause"){
       pause.innerText = "resume";
+      clearInterval(a);
+      plus.disabled = true;
+      minus.disabled = true;
+      heart.disabled = true;
+      submit.disabled = true;
   } else {
     pause.innerText = "pause";
+    plus.disabled = false;
+    minus.disabled = false;
+    heart.disabled = false;
+    submit.disabled = false;
   }
 
   clearInterval(a);
