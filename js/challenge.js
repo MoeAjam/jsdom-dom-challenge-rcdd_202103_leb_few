@@ -1,8 +1,8 @@
 let counter = document.getElementById('counter');
 
 setTimeout(start, 5000);
-
-var i = 1;
+let i = 1;
+counter.innerText = i;
 function start() {
   setInterval(increase, 1000);
 }
