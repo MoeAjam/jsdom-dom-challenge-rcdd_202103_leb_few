@@ -9,7 +9,7 @@ function start() {
 
 function increase() {
     if (i < Infinity) {
-      i++;
       counter.innerText = i;
+      i++;
     }
 }
