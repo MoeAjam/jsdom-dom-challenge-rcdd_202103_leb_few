@@ -8,7 +8,7 @@ function start() {
 }
 
 function increase() {
-    if (i < 100) {
+    if (i < Infinity) {
       i++;
       counter.innerText = i;
     }
