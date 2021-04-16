@@ -1,10 +1,15 @@
 let counter = document.getElementById('counter');
 
-let i = 1;
-let interval = setInterval( increment, 1000);
+setTimeout(start, 5000);
 
-function increment(){
-    i = i % 360 + 1;
+var i = 1;
+function start() {
+  setInterval(increase, 1000);
 }
 
-counter.innerText = i;
+function increase() {
+    if (i < 100) {
+      i++;
+      counter.innerText = i;
+    }
+}
