@@ -42,5 +42,5 @@ pause.addEventListener('click',function(e){
   plus.disabled = true;
   minus.disabled = true;
   heart.disabled = true;
+  submit.disabled = true;
 })
-  
