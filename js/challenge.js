@@ -31,5 +31,5 @@ minus.addEventListener('click', function(e){
 
 //add likes
 heart.addEventListener('click',function(e){
-  likes.innerHTML = `<li>${counter.innerText} liked your post!</li>`
+  likes.innerHTML += `<li>${counter.innerText} liked your post!</li>`
 })
