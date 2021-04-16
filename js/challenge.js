@@ -38,6 +38,7 @@ heart.addEventListener('click',function(e){
 
 //pause
 pause.addEventListener('click',function(e){
+  pause.innerText = "resume";
   clearInterval(a);
   plus.disabled = true;
   minus.disabled = true;
