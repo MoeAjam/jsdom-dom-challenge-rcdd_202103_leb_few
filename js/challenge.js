@@ -6,7 +6,7 @@ let likes = document.getElementsByClassName('likes')[0];
 let pause = document.getElementById('pause');
 let submit = document.getElementById('submit');
 //incriment by 1 every second
-setTimeout(start, 5000);
+let a = setTimeout(start, 5000);
 let i = 1;
 counter.innerText = i;
 function start() {
@@ -38,7 +38,7 @@ heart.addEventListener('click',function(e){
 
 //pause
 pause.addEventListener('click',function(e){
-  clearInterval(increase, 1000);
+  clearInterval(a);
   plus.disabled = true;
   minus.disabled = true;
   heart.disabled = true;
