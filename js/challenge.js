@@ -22,3 +22,8 @@ plus.addEventListener('click', function(e){
   counter.innerText = `${parseInt(counter.innerText) + 1}`;
   i = parseInt(counter.innerText);
 });
+
+minus.addEventListener('click', function(e){
+  counter.innerText = `${parseInt(counter.innerText) - 1}`;
+  i = parseInt(counter.innerText);
+});
