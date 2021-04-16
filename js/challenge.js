@@ -55,3 +55,8 @@ pause.addEventListener('click',function(e){
     submit.disabled = false;
   }
 })
+
+//add comments
+submit.addEventListener('click',function(e){
+  comment.innerText = commentInput.value;
+})
