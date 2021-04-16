@@ -4,6 +4,7 @@ let plus = document.getElementById('plus');
 let heart = document.getElementById('heart');
 let likes = document.getElementsByClassName('likes')[0];
 let pause = document.getElementById('pause');
+let submit = document.getElementById('submit');
 //incriment by 1 every second
 setTimeout(start, 5000);
 let i = 1;
@@ -42,3 +43,4 @@ pause.addEventListener('click',function(e){
   minus.disabled = true;
   heart.disabled = true;
 })
+  
