@@ -52,10 +52,4 @@ pause.addEventListener('click',function(e){
     heart.disabled = false;
     submit.disabled = false;
   }
-
-  clearInterval(a);
-  plus.disabled = true;
-  minus.disabled = true;
-  heart.disabled = true;
-  submit.disabled = true;
 })
