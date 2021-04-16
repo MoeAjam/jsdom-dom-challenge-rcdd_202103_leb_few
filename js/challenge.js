@@ -37,5 +37,5 @@ heart.addEventListener('click',function(e){
 
 //pause
 pause.addEventListener('click',function(e){
-  clearInterval(this.timer);
+  setTimeout(stop);
 })
