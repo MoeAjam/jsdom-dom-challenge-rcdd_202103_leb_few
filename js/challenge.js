@@ -1,7 +1,8 @@
 let counter = document.getElementById('counter');
 let minus = document.getElementById('minus');
 let plus = document.getElementById('plus');
-
+let heart = document.getElementById('heart');
+let likes = document.getElementsByClassName('likes');
 //incriment by 1 every second
 setTimeout(start, 5000);
 let i = 1;
@@ -27,3 +28,4 @@ minus.addEventListener('click', function(e){
   counter.innerText = `${parseInt(counter.innerText) - 1}`;
   i = parseInt(counter.innerText);
 });
+
