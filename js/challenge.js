@@ -20,5 +20,5 @@ function increase() {
 // use plus and minus
 plus.addEventListener('click', function(e){
   counter.innerText = `${parseInt(counter.innerText) + 1}`;
-  i = counter.innerText;
+  i = parseInt(counter.innerText);
 });
