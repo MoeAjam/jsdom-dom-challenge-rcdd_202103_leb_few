@@ -20,4 +20,4 @@ function increase() {
 // use plus and minus
 plus.addEventListener('click', function(e){
   counter.innerText = arseInt(counter.innerText) + 1;
-})
+});
